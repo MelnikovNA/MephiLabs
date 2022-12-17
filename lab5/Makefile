@@ -9,11 +9,11 @@ CC=gcc
 CFLAGS=-I.
 
 main: $(OBJECTS) 
-	gcc $(OBJECTS) -o $@
+	gcc $(OBJECTS) -g -o $@
 
 
 %.o: %.c $(DEPS)
-	$(CC) -c -o $@ $< $(CFLAGS)
+	$(CC) -c -g -o $@ $< $(CFLAGS)
 
 
 clean:
