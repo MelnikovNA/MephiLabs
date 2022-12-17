@@ -4,7 +4,7 @@ DEPS := detail.h
 
 all: main
 
-OBJECTS := detail.o details_cmp.o heap_sort.o shaker_sort.o sort_utilites.o
+OBJECTS := detail.o details_cmp.o heap_sort.o shaker_sort.o sort_utilites.o main.o
 CC=gcc
 CFLAGS=-I.
 
