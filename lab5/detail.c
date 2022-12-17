@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include "detail.h"
 #include <string.h>
+#include <errno.h>
 
 // return EOF on error
 int scanf_detail(FILE *file, detail *d) {
