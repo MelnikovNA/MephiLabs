@@ -100,5 +100,6 @@ int main(int argc, char **argv) {
     }
     save_details_to_file(output_file, d, count);
     fclose(output_file);
+    free_details(d, count);
     return EXIT_SUCCESS;
 }
