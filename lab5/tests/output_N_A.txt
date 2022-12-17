@@ -1,0 +1,4 @@
+12345Q78	name_detail_A_4	14
+12Q45678	name_detail_B_1	41
+1Q345678	name_detail_Q_2	22
+123Q5678	name_detail_Z_3	53
