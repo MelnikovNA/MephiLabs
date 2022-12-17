@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <getopt.h>
 #include <string.h>
+#include <errno.h>
+
 
 int main(int argc, char **argv) {
     int count;
