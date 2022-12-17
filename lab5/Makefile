@@ -1,4 +1,4 @@
-SOURCES := detail.c details_cmp.c heap_sort.c shaker_sort.c sort_utilites.c
+SOURCES := detail.c details_cmp.c heap_sort.c shaker_sort.c sort_utilites.c main.c
 DEPS := detail.h
 
 
@@ -9,7 +9,7 @@ CC=gcc
 CFLAGS=-I.
 
 main: $(OBJECTS) 
-	gcc $(OBJECTS) -o $@ -lreadline
+	gcc $(OBJECTS) -o $@
 
 
 %.o: %.c $(DEPS)
