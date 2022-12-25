@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include "lab6.h"
 
+
 int word_len_ll( ll *head, ll **end){
     if (head==NULL){
         return EOF;

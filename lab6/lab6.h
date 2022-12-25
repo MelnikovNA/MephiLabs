@@ -12,20 +12,14 @@ struct ll_struct{
     ll *next;
 };
 
-ll *new_ll(int ch){
-    ll *ret=calloc(1,sizeof (ll));
-    ret->ch=ch;
-    return ret;
-}
-
 void empty_ll (ll *head);
 void print_chain(ll *current);
 
 int word_len_ll( ll *head, ll **end);
 
-ll *new_ll(int ch);
 ll *cyclic_shift_word_right(ll **whead, int n);
 ll *cyclic_shift_right_ll(ll *phead, int n);
 ll *max_trim(ll *head);
+ll *new_ll(int ch);
 
 #endif //LAB6_LAB6_H
