@@ -90,3 +90,9 @@ void print_chain(ll *current){
     fprintf(stdout,"\n");
     fflush(stdout);
 }
+
+ll *new_ll(int ch){
+    ll *ret=calloc(1,sizeof (ll));
+    ret->ch=ch;
+    return ret;
+}
